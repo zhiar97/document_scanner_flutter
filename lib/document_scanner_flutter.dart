@@ -26,7 +26,7 @@ class DocumentScannerFlutter {
       return null;
     } else {
       if (Platform.isIOS) {
-        path = path.split('file://')[1];
+        return File.fromUri(Uri.parse(path));
       }
       return File(path);
     }
