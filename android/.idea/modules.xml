@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/document_scanner_flutter.iml" filepath="$PROJECT_DIR$/.idea/modules/document_scanner_flutter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document_scanner_flutter.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/document_scanner_flutter.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document_scanner_flutter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/document_scanner_flutter.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document_scanner_flutter.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/document_scanner_flutter.unitTest.iml" />
     </modules>
   </component>
 </project>
