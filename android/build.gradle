@@ -2,23 +2,24 @@ group 'com.document.scanner.flutter.document_scanner_flutter'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.6.10'
+    ext.kotlin_version = '1.7.20'
     repositories {
         google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.android.tools.build:gradle:7.2.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 rootProject.allprojects {
     repositories {
+        mavenCentral()
+		maven { url 'https://jitpack.io' }
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -66,6 +67,5 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:22.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.github.IgeeTheron:AndroidDocumentScanLibrary:v0.0.1'
-//    implementation 'com.github.ishaquehassan:AndroidDocumentScanLibrary:1.8.2'
+    implementation 'com.github.sanjeevinnobit:AndroidDocumentScanLibrary:1.0.0'
 }
